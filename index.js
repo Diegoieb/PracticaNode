@@ -20,20 +20,64 @@ app.get('/aviones',(req,res)=>{
     res.send('<h1>Listar Aviones</h1>')
 })
 
+app.put('/updateAviones',(req,res)=>{
+    res.send('Actualizar aviones');
+})
+
+app.post('/agregaAviones',(req,res)=>{
+    res.send('Agregar aviones');
+})
+
+app.delete('/borrarAviones',(req,res)=>{
+    res.send('Borrando aviones');
+})
+
 app.get('/autos',(req,res)=>{
     res.send('<h1>Listar Autos</h1>')
+})
+
+app.put('/updateAutos',(req,res)=>{
+    res.send('Actualizar autos');
+})
+
+app.post('/agregaAutos',(req,res)=>{
+    res.send('Agregar autos');
+})
+
+app.delete('/borrarAutos',(req,res)=>{
+    res.send('Borrando autos');
 })
 
 app.get('/motos',(req,res)=>{
     res.send('<h1>Listar Motos</h1>')
 })
 
+app.put('/updateMotos',(req,res)=>{
+    res.send('Actualizar Motos');
+})
+
+app.post('/agregaMotos',(req,res)=>{
+    res.send('Agregar Motos');
+})
+
+app.delete('/borrarMotos',(req,res)=>{
+    res.send('Borrando Motos');
+})
+
 app.get('/trenes',(req,res)=>{
     res.send('<h1>Listar Trenes</h1>')
 })
 
-app.put('/updateAviones',(req,res)=>{
-    res.send('<h1>No hay dispo</h1>');
+app.put('/updateTrenes',(req,res)=>{
+    res.send('Actualizar Trenes');
+})
+
+app.post('/agregaTrenes',(req,res)=>{
+    res.send('Agregar Trenes');
+})
+
+app.delete('/borrarTrenes',(req,res)=>{
+    res.send('Borrando Trenes');
 })
 
 //configuro puerto por el cual escuchara las solicitudes
