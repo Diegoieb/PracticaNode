@@ -34,7 +34,6 @@ app.get('/trenes',(req,res)=>{
 
 app.put('/updateAviones',(req,res)=>{
     res.send('<h1>No hay dispo</h1>');
-    res.status(200).send('funciona');
 })
 
 //configuro puerto por el cual escuchara las solicitudes
